@@ -34,6 +34,19 @@ public class Employee {
 
     // Print out the sum of the variables called firstBonus, secondBonus and
     // thirdBonus.
+    int age = 29;
+		System.out.println(age);
+		boolean isAManager = true;
+		System.out.println(isAManager);
+		double yearsOfService = 2.5;
+		System.out.println(yearsOfService);
+		int baseSalary = 3000;
+		System.out.println(baseSalary);
+		int overtimePayment = 40;
+		int totalPayment = baseSalary + overtimePayment;
+		System.out.println(totalPayment);
+		double fb =10.00,sb = 22.00,tb = 35.00;
+		System.out.println(fb+sb+tb);
 
   }
 
